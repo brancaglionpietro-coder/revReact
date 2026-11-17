@@ -4,9 +4,12 @@ import { Menu } from './components/menu'
 function App() {
 
   return (
-    <div className={s.wrapHome}>
+    <>
       <Menu/>
-    </div>
+        <div className={s.wrapHome}>
+          
+        </div>
+    </>
     
   )
 }
