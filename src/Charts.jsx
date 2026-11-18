@@ -1,6 +1,10 @@
 import { useState } from 'react'
 import s from './Charts.module.css'
 import { Menu } from './components/menu'
+import { GBarra } from './components/barCharts'
+import { GLinha } from './components/lineCharts'
+import { GPizza } from './components/pizzaCharts'
+
 
 function Charts(){
 
@@ -11,14 +15,14 @@ const [show, setShow] = useState("")
             <Menu/>
             <div className={s.wrapCharts}> 
                 <div className={s.wrapBtns}>
-                    <button onClick={() => setShow("barra")}>Barra</button> 
-                    <button onClick={() => setShow("pizza")}>Pizza</button>
-                    <button onClick={() => setShow("linha")}>Linha</button>
+                    <button className={s.btn} onClick={() => setShow("barra")}>Barra</button> 
+                    <button className={s.btn} onClick={() => setShow("pizza")}>Pizza</button>
+                    <button className={s.btn} onClick={() => setShow("linha")}>Linha</button>
                 </div>
 
-                {show === "barra" && <h1>Gráfico de barras</h1>}
-                {show === "pizza" &&<h1>Gráfico de pizza</h1>}
-                {show === "linha" &&<h1>Gráfico de linhas</h1>}
+                    {show === "barra" && <GBarra/>}
+                    {show === "pizza" && <GPizza/>}
+                    {show === "linha" &&<GLinha/>}
             </div>
         </>
     )
