@@ -8,41 +8,9 @@ import {
     YAxis
 } from 'recharts';
 
-// import dados from './data/grafico.json';
+import lineDados from '../mock/lineDados.json'
 
 export const GLinha = () => {
-    const data = [
-            {
-                "label": "Janeiro",
-                "vendas": 120,
-                "despesas": 80
-            },
-            {
-                "label": "Fevereiro",
-                "vendas": 180,
-                "despesas": 100
-            },
-            {
-                "label": "Março",
-                "vendas": 150,
-                "despesas": 90
-            },
-            {
-                "label": "Abril",
-                "vendas": 220,
-                "despesas": 130
-            },
-            {
-                "label": "Maio",
-                "vendas": 190,
-                "despesas": 110
-            },
-            {
-                "label": "Junho",
-                "vendas": 280,
-                "despesas": 160
-            }
-    ]
     return (
         <AreaChart
             style={{
@@ -52,7 +20,7 @@ export const GLinha = () => {
                 aspectRatio: 1.618
             }}
             responsive
-            data={data}
+            data={lineDados}
             margin={{
                 top: 10,
                 right: 10,

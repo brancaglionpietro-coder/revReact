@@ -1,0 +1,15 @@
+{
+    "data01 ": [
+        { "name": "Vendas", "value": 400, "fill": "#8884d8" },
+        { "name": "Marketing", "value": 300, "fill": "#82ca9d" },
+        { "name": "Tecnologia", "value": 200, "fill": "#ffc658" },
+        { "name": "Outros", "value": 100, "fill": "#ff8042" }
+    ],
+
+    "data02": [
+        { "name": "Concluído", "value": 65, "fill": "#82ca9d" },
+        { "name": "Pendente", "value": 25, "fill": "#8884d8" },
+        { "name": "Cancelado", "value": 10, "fill": "#ff8042" }
+    ]
+
+}
