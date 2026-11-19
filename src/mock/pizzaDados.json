@@ -1,5 +1,5 @@
 {
-    "data01 ": [
+    "data01": [
         { "name": "Vendas", "value": 400, "fill": "#8884d8" },
         { "name": "Marketing", "value": 300, "fill": "#82ca9d" },
         { "name": "Tecnologia", "value": 200, "fill": "#ffc658" },

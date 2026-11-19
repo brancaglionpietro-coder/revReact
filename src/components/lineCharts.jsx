@@ -15,7 +15,7 @@ export const GLinha = () => {
         <AreaChart
             style={{
                 width: '100%',
-                maxWidth: '700px',
+                maxWidth: '1200px',
                 maxHeight: '70vh',
                 aspectRatio: 1.618
             }}
