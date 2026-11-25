@@ -5,17 +5,21 @@
   --sombra: 0px 2px 10px #00000054;
 }
 
+body{
+  overflow-x: hidden;
+}
+
 *{
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
-  overflow-x: hidden;
-}
-
 a{
   text-decoration: none;
   color: inherit;
 }
+
+/* .leaflet-control-attribution{
+  display: none;
+} */
